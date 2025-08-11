@@ -45,10 +45,6 @@ mindmap
 
 </div>
 
-## 🚀 Demo
-
-Experience the live portfolio at [https://portfolio-lohit.vercel.app](https://portfolio-lohit.vercel.app)
-
 ## 🛠️ Installation
 
 1️⃣ Clone the repository:
@@ -78,6 +74,13 @@ npm run dev
 5️⃣ Open in browser:
 
 - Visit [http://localhost:3000](http://localhost:3000)
+
+Building and Deploying development server:
+
+```bash
+npm run build
+npm run deploy
+```
 
 ## 💻 Tech Stack
 
