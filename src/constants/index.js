@@ -24,6 +24,7 @@ import {
   mobalytics,
   hft,
   wix,
+  routinelogic,
 } from "../assets";
 
 export const navLinks = [
@@ -104,7 +105,7 @@ export const projects = [
   {
     name: "Old Website",
     description:
-      "Old personal Website, built before this main site.",
+      "Old personal Website, built before this main site. Contains many old projects and a detailed timeline of GDC 2023",
     tags: [
       { name: "Javascript", color: "blue-text-gradient" },
       { name: "HTML", color: "green-text-gradient" },
@@ -114,17 +115,18 @@ export const projects = [
     source_code_link: "https://markcgvillanueva.wixsite.com/markcgv",
   },
   {
-    name: "WeatherPedia",
+    name: "Routine Logic",
     description:
-      "Web-based platform that allows users to access weather information for their location by entering it in the search field",
+      "Routine Logic is an intelligent package dependency report application designed to streamline and enhance software maintenance workflows. Leveraging AI and existing UPS systems, this tool helps developers and system administrators.",
     tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "HTML", color: "green-text-gradient" },
-      { name: "bootstrap 5.3.0", color: "pink-text-gradient" },
-      { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
+      { name: "React", color: "blue-text-gradient" },
+      { name: "Electron", color: "green-text-gradient" },
+      { name: ".Net", color: "pink-text-gradient" },
+      { name: "Node.js", color: "blue-text-gradient" },
+      { name: "Google Vertex AI", color: "green-text-gradient" },
     ],
-    image: weatherpedia,
-    source_code_link: "https://github.com/MarkVillanueva/WeatherPedia",
+    image: routinelogic,
+    source_code_link: "https://github.com/2025-UPS-Hackathon/Routine-Logic",
   },
   {
     name: "Terminal Like Portfolio Website",

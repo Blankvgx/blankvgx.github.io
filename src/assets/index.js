@@ -20,6 +20,7 @@ import mhft from "./projects/mhft.png";
 import sketcher from "./projects/sketcher.png";
 import CompileVortex from "./projects/CompileVortex.png";
 import wix from "./projects/wix.png";
+import routinelogic from "./projects/routinelogic.png";
 
 // Import tech logos
 import css from "./tech/css.png";
@@ -69,4 +70,5 @@ export {
   hft,
   wix,
   Mark_PFP,
+  routinelogic,
 };
