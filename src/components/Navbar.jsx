@@ -9,11 +9,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const toggleResume = () => {
-<<<<<<< HEAD
     const resumeUrl = '/MarkCedrickVillanueva_ITResume.pdf';
-=======
-    const resumeUrl = '/Resume.pdf';
->>>>>>> parent of 79c790ca (Changed Layout)
     window.open(resumeUrl);
   };
 
