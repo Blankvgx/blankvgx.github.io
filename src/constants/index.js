@@ -25,6 +25,11 @@ import {
   hft,
   wix,
   routinelogic,
+  usrmanagement,
+  moviepunk,
+  serenity,
+  vitalvoyage,
+  deepedu,
 } from "../assets";
 
 export const navLinks = [
@@ -129,63 +134,79 @@ export const projects = [
     source_code_link: "https://github.com/2025-UPS-Hackathon/Routine-Logic",
   },
   {
-    name: "Terminal Like Portfolio Website",
+    name: "User Management",
     description:
-      "A terminal themed portfolio website that allows users to type into the terminal and use commands like a real terminal.",
+      "Developed and tested features for a user management system, including setting up Docker, Ubuntu, and pgAdmin, fixing QA issues, and implementing new API endpoints. Leveraged GitHub for version control and DockerHub for containerization",
+    tags: [
+      { name: "Docker", color: "blue-text-gradient" },
+      { name: "Ubuntu", color: "green-text-gradient" },
+      { name: "pgAdmin", color: "pink-text-gradient" },
+    ],
+    image: usrmanagement,
+    source_code_link: "https://github.com/Blankvgx/user_management",
+  },
+  {
+    name: "Adobe Express Add-on | Moviepunk",
+    description:
+      "Developed Moviepunk for  HackNJIT 2024, a custom Adobe Express add-on, enabling users to upload, manipulate, and integrate images into digital projects seamlessly.",
     tags: [
       { name: "HTML", color: "blue-text-gradient" },
-      { name: "css", color: "green-text-gradient" },
-      { name: "Javascript", color: "pink-text-gradient" },
+      { name: "JavaScript", color: "green-text-gradient" },
+      { name: "TypeScript", color: "pink-text-gradient" },
+      { name: "Adobe Express Add-On SDK", color: "blue-text-gradient" },
     ],
-    image: termpw,
-    source_code_link: "https://github.com/MarkVillanueva/MarkVillanueva.github.io",
-  },
-  {
-    name: "Mental Health Fitness Tracker",
-    description:
-      "ML model that utilizes regression techniques to provide insights into mental health and make predictions based on the available data.",
-    tags: [
-      { name: "Machine Learning", color: "blue-text-gradient" },
-      { name: "Jupyter Notebook", color: "green-text-gradient" },
-      { name: "Regression Algorithms", color: "pink-text-gradient" },
-    ],
-    image: mhft,
+    image: moviepunk,
     source_code_link:
-      "https://github.com/MarkVillanueva/mental_health_fitness_tracker",
+      "https://devpost.com/software/moviepunk",
   },
   {
-    name: "PayloadMaster",
+    name: "Mental Health App | Serenity",
     description:
-      "Tool to automate payload creation using the Metasploit framework",
+      "Developed a mood-tracking web application for HackRU 2024, enabling users to reflect on daily emotions through a simple and organized interface. Features include a functional login system, mood tracker, diary tab, and color-coded calendar for visualizing stress and happiness trends.",
     tags: [
-      { name: "shell", color: "blue-text-gradient" },
+      { name: "bubble", color: "blue-text-gradient" },
     ],
-    image: payloadmaster,
-    source_code_link: "https://github.com/MarkVillanueva/PayloadMaster",
+    image: serenity,
+    source_code_link: "https://devpost.com/software/serenity-xuwtp1",
   },
   {
-    name: "CompileVortex",
+    name: "Public Health | VitalVoyage",
     description:
-      "Tool to automate payload creation using the Metasploit framework",
+      "Developed an online appointment booking platform for HackNJIT 2023 Hackathon, incorporating patient registration, digital/printable medical forms, and an educational game for children to enhance engagement.",
     tags: [
       { name: "Javascript", color: "blue-text-gradient" },
       { name: "CSS", color: "green-text-gradient" },
       { name: "HTML", color: "pink-text-gradient" },
+      { name: "GoDaddy", color: "blue-text-gradient" },
     ],
-    image: CompileVortex,
-    source_code_link: "https://github.com/MarkVillanueva/CompileVortex",
+    image: vitalvoyage,
+    source_code_link: "https://devpost.com/software/vital-voyage-qfsup7?ref_content=my-projects-tab&ref_feature=my_projects",
   },
   {
-    name: "Sketcher",
+    name: "Education Website | DeepEdu",
     description:
-      "Convert an input image to a pencil sketch using OpenCV and Matplotlib libraries.",
+      "Developed an innovative website for HackRU 2023 Hackathon, integrating AI and machine learning to create a student tool, enhancing user engagement and functionality.",
     tags: [
-      { name: "OpenCV", color: "blue-text-gradient" },
-      { name: "Matplotlib", color: "green-text-gradient" },
-      { name: "Python", color: "pink-text-gradient" },
+      { name: "Javascript", color: "blue-text-gradient" },
+      { name: "CSS", color: "green-text-gradient" },
+      { name: "HTML", color: "pink-text-gradient" },
+      { name: "GoDaddy", color: "blue-text-gradient" },
     ],
-
-    image: sketcher,
-    source_code_link: "https://github.com/MarkVillanueva/Image_to_Pencil_Sketch_App",
+    image: deepedu,
+    source_code_link: "https://deepedu.godaddysites.com/",
+  },
+  {
+    name: "Fitness Website & Store | EnvinoWalk",
+    description:
+      "Engineered a comprehensive website for HackNJIT 2022 Hackathon, utilizing a built-in database to streamline front-end and back-end operations, improving data management efficiency.",
+    tags: [
+      { name: "Javascript", color: "blue-text-gradient" },
+      { name: "Velo", color: "green-text-gradient" },
+      { name: "HTML", color: "pink-text-gradient" },
+      { name: "Wix", color: "blue-text-gradient" },
+      { name: "Google Maps", color: "green-text-gradient" },
+    ],
+    image: envinowalk,
+    source_code_link: "https://devpost.com/software/envinowalk",
   },
 ];

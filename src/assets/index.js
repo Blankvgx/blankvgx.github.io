@@ -21,6 +21,12 @@ import sketcher from "./projects/sketcher.png";
 import CompileVortex from "./projects/CompileVortex.png";
 import wix from "./projects/wix.png";
 import routinelogic from "./projects/routinelogic.png";
+import usrmanagement from "./projects/usrmanagement.png";
+import moviepunk from "./projects/moviepunk.png";
+import serenity from "./projects/serenity.png";
+import vitalvoyage from "./projects/vitalvoyage.png";
+import deepedu from "./projects/deepedu.png";
+import envinowalk from "./projects/envinowalk.png";
 
 // Import tech logos
 import css from "./tech/css.png";
@@ -71,4 +77,10 @@ export {
   wix,
   Mark_PFP,
   routinelogic,
+  usrmanagement,
+  moviepunk,
+  serenity,
+  vitalvoyage,
+  deepedu,
+  envinowalk,
 };
