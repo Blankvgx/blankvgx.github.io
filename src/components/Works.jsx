@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
+import { gameprojects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
@@ -66,6 +67,21 @@ const Works = () => {
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
+          <ProjectCard key={`project-${index}`} {...project} />
+        ))}
+      </div>
+      <motion.div variants={textVariant()}>
+        <h2 className={`${styles.sectionHeadText}`}>Game Projects</h2>
+      </motion.div>
+      <div className="w-full flex">
+        <motion.p variants={fadeIn("", "", 0.1)} className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
+          Following projects showcase my skills and experience through examples
+          of my work. Each project is briefly described with links to them on the
+          top right of panel.
+        </motion.p>
+      </div>
+      <div className="mt-20 flex flex-wrap gap-7">
+        {gameprojects.map((project, index) => (
           <ProjectCard key={`project-${index}`} {...project} />
         ))}
       </div>

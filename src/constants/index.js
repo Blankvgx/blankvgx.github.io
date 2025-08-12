@@ -30,6 +30,7 @@ import {
   serenity,
   vitalvoyage,
   deepedu,
+  envinowalk,
 } from "../assets";
 
 export const navLinks = [
@@ -195,6 +196,22 @@ export const projects = [
     image: deepedu,
     source_code_link: "https://deepedu.godaddysites.com/",
   },
+  {
+    name: "Fitness Website & Store | EnvinoWalk",
+    description:
+      "Engineered a comprehensive website for HackNJIT 2022 Hackathon, utilizing a built-in database to streamline front-end and back-end operations, improving data management efficiency.",
+    tags: [
+      { name: "Javascript", color: "blue-text-gradient" },
+      { name: "Velo", color: "green-text-gradient" },
+      { name: "HTML", color: "pink-text-gradient" },
+      { name: "Wix", color: "blue-text-gradient" },
+      { name: "Google Maps", color: "green-text-gradient" },
+    ],
+    image: envinowalk,
+    source_code_link: "https://devpost.com/software/envinowalk",
+  },
+];
+export const gameprojects = [
   {
     name: "Fitness Website & Store | EnvinoWalk",
     description:
