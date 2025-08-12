@@ -39,6 +39,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[20px] max-w-3xl leading-[30px]"
+        style={{ textAlign: 'justify' }}
       >
         I am a Graduate Information Technology student from New Jersery Institute of Technology.
         I have a strong passion for Game Development and Software Engineering. I am looking to

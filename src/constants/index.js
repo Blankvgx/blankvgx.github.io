@@ -20,6 +20,10 @@ import {
   mathwork,
   CompileVortex,
   eduskill,
+  ups,
+  mobalytics,
+  hft,
+  wix,
 } from "../assets";
 
 export const navLinks = [
@@ -58,42 +62,57 @@ export const technologies = [
 export const experiences = [
   {
     title: "ISM Intern",
-    company_name: "EduSkill Foundation | AWS Academy | AICTE",
-    icon: eduskill,
+    company_name: "UPS",
+    icon: ups,
     iconBg: "#161329",
-    date: "Sep 2023 - Nov 2023",
+    date: "Jun 2025 - Aug 2025",
     points: [
-      "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
-      "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
+      "Deployed Looker and Google Cloud Run to automate manual touch points, resulting in ~$15,000 per Month in cost savings in manual effort.",
+      "Created 2 scalable projects that can be adopted throughout the organization, that cut task time by 90% and boosted efficiency by 1000%.",
+      "Utilized Azure DevOps for task management, created 10 tasks in user stories, and practiced SoD to keep workflow organized and maintained.",
+      "Gained enterprise level experience in over 7 cloud technologies and worked closely with the DevOps Lifecycle to manage all projects."
     ],
   },
   {
-    title: "Mathwork Ai Virtual Intern",
-    company_name: "Mathwork | AICTE",
-    icon: mathwork,
+    title: "Mobalytics Remote Extern",
+    company_name: "Extern | Mobalytics",
+    icon: mobalytics,
     iconBg: "#161329",
-    date: "May 2023 - Sep 2023",
+    date: "Aug 2024 - Sep 2024",
     points: [
-      "Completed virtual internship, gaining a strong foundation in MATLAB, including data analysis and processing.",
-      "Acquired practical skills in image and signal processing, including segmentation, batch processing, and spectral analysis.",
-      "Developed expertise in machine learning models for clustering, classification, and regression, and customized deep learning techniques for image classification.",
+      "Incorporated myself with the vision, mission, and operations of Mobalytics, resulting in a 100% understanding of company goals.",
+      "Researched 4+ gaming genres, identifying key trends and market opportunities, leading to a 15% improvement in strategic recommendations.",
+      "Evaluated over 10 different game mechanics, KPIs, revenue models, and player psychology, driving an increase in insights.",
+      "Oversaw over 3 specific games to gain firsthand experience, enhancing understanding of player behaviors and genre-specific dynamics."
     ],
   },
   {
-    title: "Artificial Intelligence Intern",
-    company_name: "Edunet Foundation | IBM SkillsBuild | AICTE",
-    icon: edunet,
+    title: "Sales Associate",
+    company_name: "Harbor Freight Tools",
+    icon: hft,
     iconBg: "#161329",
-    date: "June 2023 - July 2023",
+    date: "Aug 2023 - March 2024",
     points: [
-      "Engineered a comprehensive Mental Health Fitness Tracker ML model utilizing Python and scikit-learn.",
-      "Maximized the model's performance by refining model parameters and employing ensemble methods, yielding an outstanding accuracy percentage of 98.50%.",
-      "Leveraged 12 regression algorithms to attain precise outcomes in analyzing and predicting mental fitness levels across 150+ countries.",
+      "Boosted store efficiency and profitability by implementing streamlined processes, resulting in a 15% increase in sales.",
+      "Ensured a safe, clean, and organized store environment, enhancing customer satisfaction and retention, resulting in a 10% boost in repeated visits.",
+      "Managed inventory and back-end operations, ensuring optimal stock levels and reducing shortages by 20%."
     ],
   },
 ];
 
 export const projects = [
+  {
+    name: "Old Website",
+    description:
+      "Old personal Website, built before this main site.",
+    tags: [
+      { name: "Javascript", color: "blue-text-gradient" },
+      { name: "HTML", color: "green-text-gradient" },
+      { name: "Wix", color: "pink-text-gradient" },
+    ],
+    image: wix,
+    source_code_link: "https://markcgvillanueva.wixsite.com/markcgv",
+  },
   {
     name: "WeatherPedia",
     description:
