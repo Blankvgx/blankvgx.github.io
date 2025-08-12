@@ -30,7 +30,10 @@ import {
   serenity,
   vitalvoyage,
   deepedu,
+<<<<<<< HEAD
   envinowalk,
+=======
+>>>>>>> parent of 79c790ca (Changed Layout)
 } from "../assets";
 
 export const navLinks = [
@@ -210,6 +213,7 @@ export const projects = [
     image: envinowalk,
     source_code_link: "https://devpost.com/software/envinowalk",
   },
+<<<<<<< HEAD
 ];
 export const gameprojects = [
   {
@@ -226,4 +230,6 @@ export const gameprojects = [
     image: envinowalk,
     source_code_link: "https://devpost.com/software/envinowalk",
   },
+=======
+>>>>>>> parent of 79c790ca (Changed Layout)
 ];

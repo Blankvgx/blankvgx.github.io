@@ -6,7 +6,10 @@ import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
+<<<<<<< HEAD
 import { gameprojects } from "../constants";
+=======
+>>>>>>> parent of 79c790ca (Changed Layout)
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
@@ -70,6 +73,7 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} {...project} />
         ))}
       </div>
+<<<<<<< HEAD
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText}`}>Game Projects</h2>
       </motion.div>
@@ -85,6 +89,8 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} {...project} />
         ))}
       </div>
+=======
+>>>>>>> parent of 79c790ca (Changed Layout)
     </>
   );
 };
